@@ -10,11 +10,11 @@ var data;
 
 function init() {
 
-  d3.json("data/samples.json").then(function(dataInitial) {
-    console.log (dataInitial);
-    data = dataInitial;
+  d3.json("data/samples.json").then(function(dataBelly) {
+    console.log (dataBelly);
+    data = dataBelly;
 
-    var selectValues = dataInitial.names;
+    var selectValues = dataBelly.names;
 
 
 
