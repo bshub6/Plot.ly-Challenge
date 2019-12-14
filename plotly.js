@@ -304,7 +304,7 @@ function gaugeChart(valueSelect) {
 
         threshold: {
 
-          line: { color: "red", width: 4 },
+          line: { color: "red", width: 5 },
 
           thickness: 1,
 
